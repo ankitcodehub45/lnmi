@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<title>L N Mishra</title>
+	 <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo1.jpg"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="fees.html">FEE STRUCTURE</a></li>
+					<li><a href="notice.html">NOTICES</a></li>
+					<li><a href="placement.html">PLACEMENT CELL</a></li>
+					<li><a href="Faculty.html">OUR FACULTY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>About Us</h1>
+	</section>
+
+
+<!-- ---------------About us college------------------ -->
+
+<section class="about-us">
+	
+	<div class="row">
+		<div class="about-col">
+			<h1>Welcome to L. N. Mishra Institute, Patna</h1>
+			<p>“Bihar Institute of Economic Development” was established in 1973 to carry out research aimed at facilitating socio-economic development. In 1975, to preserve the memory of late Lalit Narayan Mishra, the then Union Railway Minister, the Institute was renamed as “Lalit Narayan Mishra Institute of Economic Development and Social Change (LNMI)” and very soon it diversified into education with courses in Office Management, Business Management, Marketing & Sales Management and Personnel Management & Industrial Relations. As the demand for the various
+            Management Programmes changed with time, some of these courses were dropped, others modified, and new ones added. Later on, the Institute was taken over by the Government of Bihar.</p>
+            <a href="course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="images/notice.png" >
+		</div>
+	</div>
+
+
+
+</section>
+
+
+
+
+<!-- --------------footer------------- --> 
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aliquam repellendus architecto <br>saepe eaque accusamus necessitatibus, alias repudiandae omnis ab.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+</section>
+
+
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+	 	navLinks.style.right="0";
+	 } 
+	function hideMenu(){
+	 	navLinks.style.right="-200px";
+	 } 
+</script>
+
+
+</body>
+</html>

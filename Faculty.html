@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>L N Mishra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="fees.html">FEE STRUCTURE</a></li>
+                    <li><a href="notice.html">NOTICES</a></li>
+                    <li><a href="placement.html">PLACEMENT CELL</a></li>
+                    <li><a href="Faculty.html">OUR FACULTY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR FACULTY</h1>
+    </section>
+
+    <!------------- faculty ---------->
+
+    <section class ="faculty-section">
+        <h1>IT DEPARTMENT FACULTY</h1>
+
+        <div class="faculty-main"> 
+
+            <div class="faculties">
+                <img src= "images/Santosh sir.jpg" alt="error loading image" >
+                <h3>Sri Santosh Kumar Jha</h3>
+                <p>MCA , M.Tech (IT)</p>
+                <p>Web Technology, Java Programming,</p> 
+                <p>Computer Network, Information</p> 
+                <p>Technology, C &amp; Data Structure,</p> 
+                <p>DBMS.</p> 
+            </div>
+
+            <div class="faculties">
+                <img src = "images/Vijay sir.jpg">
+                <h3>Sri Vijay Kumar</h3>
+                <p>MCA</p> 
+                <p>Parallel Computing, Distributed</p> 
+                <p>Database, Dot Net, Data Structure,</p> 
+                <p>Client/Server Technology.</p> 
+            </div>
+
+            <div class="faculties">            
+                <img src ="images/Anant sir.jpg" alt="error loading image" >
+                <h3>Anant Kumar</h3>
+                <p>MCA ,PHD</p> 
+                <p>Object oriented Technalogy,Java Programming ,<br>Artificial Intelligence, Design and Ananlysis of Algorithm,<br>C &amp; Operating System principle,Database <br>Management System</p>
+            </div>
+
+            <div class="faculties">
+                <img src ="images/Rajesh sir.jpg" >
+                <h3>Rajesh Mishra</h3>
+                <p>MCA,M.Tech(IT)</p> 
+                <p>.Net Developer ,.Net Development,DBMS </p> 
+                <p>Artificial Intelligence </p> 
+            </div>
+
+            <div class="faculties">
+                <img src="images/Shakti mam.jpg" >
+                <h3>Shakti pandey</h3>
+                <p>MCA, PHD</p> 
+                <p>Operating system,Artificial Intelligence,Big Data</p>
+            </div>
+
+            <div class="faculties">
+                <img src="images/Ramesh sir.jpg" >
+                <h3>Ramesh kumar</h3>
+                <p>MCA ,PHD</p> 
+                <p> Object Oriented,DBMS,IOT</p> 
+            </div>
+
+            <div class="faculties">
+                <img src="images/Raju sir.jpg"  >
+                <h3>Er Raju Kumar</h3>
+                <p>MCA, PHD</p> 
+                <p>Parallel computing, Distributed Database <br> .NET,Data Structure</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        } 
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        } 
+    </script>
+
+
+</body>
+</html>

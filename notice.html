@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<title>L N Mishra</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo1.jpg"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="fees.html">FEE STRUCTURE</a></li>
+					<li><a href="notice.html">NOTICES</a></li>
+					<li><a href="placement.html">PLACEMENT CELL</a></li>
+					<li><a href="Faculty.html">OUR FACULTY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>News & Updates 2022</h1>
+	</section>
+
+<!-- ------------------notices---------------- -->
+
+
+<section class="notices">
+
+	<div class="row">
+		<div class="notice-left">
+			<img src="images/notice.png" >
+			<h2>News & Updates 2022</h2>
+			<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Laborum, deleniti eum consequatur laboriosam laudantium unde quod quo nulla, suscipit ad nisi inventore iste, voluptates modi consequuntur ea, magni vel. Necessitatibus reprehenderit officia, tempora ratione debitis dolorem exercitationem iure blanditiis pariatur non incidunt rem, adipisci sint, dolore unde ea inventore numquam ipsam odio voluptate eos. Mollitia sequi illum impedit, ad animi?</p>
+			<br>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo cumque dolor dolore impedit quis voluptate qui neque eius perferendis mollitia optio aspernatur natus sint illum, sequi facilis maiores, dolores consequuntur. Consectetur ex delectus voluptatum quia, commodi vel reiciendis voluptatem. Vitae voluptate eveniet, id quos molestiae totam possimus ipsum enim odio modi, repellendus deleniti hic magni neque animi laboriosam sit inventore!</p>
+			<br>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Consequatur vel minima molestias doloremque architecto inventore consectetur, tempore nesciunt soluta ut itaque, ab unde ad ducimus saepe et fugit in neque repudiandae veniam obcaecati rem impedit animi! Ea fugit eveniet autem sequi consequuntur nihil odio unde voluptate deleniti dolore provident non ducimus eligendi facere vitae ut excepturi delectus nemo, corporis officiis?</p>
+			<br>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo saepe itaque aspernatur cum vel quia nam excepturi dolorum, expedita qui reprehenderit, officia beatae recusandae voluptate, sequi iste voluptatum cumque, voluptatem hic dicta. Nisi id enim, minus itaque vel porro, veniam officia, animi repellat facilis molestias atque pariatur blanditiis ipsam error odio tempore quis necessitatibus repudiandae aliquam. Nesciunt repellat minima porro.</p>
+
+
+			<div class="comment-box">
+				<h3>Leave a comment</h3>
+
+				<form class="comment-form">
+					<input type="text" placeholder="Enter Name">
+					<input type="email" placeholder="Enter Email">
+					<textarea name="" id="" rows="5" placeholder="Your Comment"></textarea>
+					<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+				</form>
+
+			</div>
+
+
+
+
+		</div>
+	<div class="notice-right">
+		<h3>Notices</h3>
+		<marquee behavior="" direction="up">
+		<div>
+			<span>Fourth Semester Special Examination of MCA and BBA</span>
+			<span>Thrusday, 5 October 2022</span>
+		</div>
+		<div>
+			<span>Revised Time-table of MBA, MBA-HRD, MBA-IB BBA All Odd Semesters</span>
+			<span>Monday, 27 September 2022</span>
+		</div>
+		<div>
+			<span>Notice for MCA 6th semester On-line Examination Form fill-up</span>
+			<span>Tuesday, 10 September 2022</span>
+		</div>
+		<div>
+			<span>Theory Classes Time table of MBA,MBA,IB,MBA-HRD and BBA all Odd Semesters</span>
+			<span>Friday, 5 August 2022</span>
+		</div>
+		<div>
+			<span>MBA, BBA, BCA Sixth selection list and MBA-HRD, MBA-IB Third selection list for Admission</span>
+			<span>Thrusday, 5 July 2022</span>
+		</div>
+		</marquee>
+	</div>
+		
+	
+	</div>
+
+</section>
+
+
+
+<!-- --------------footer------------- --> 
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aliquam repellendus architecto <br>saepe eaque accusamus necessitatibus, alias repudiandae omnis ab.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+</section>
+
+
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+	 	navLinks.style.right="0";
+	 } 
+	function hideMenu(){
+	 	navLinks.style.right="-200px";
+	 } 
+</script>
+
+
+</body>
+</html>
